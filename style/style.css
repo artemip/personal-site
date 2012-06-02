@@ -40,22 +40,23 @@ body {
 }
 
 #name {
-	height:100%;
 	padding-top:30px;
 	padding-left:20px;
-	width:50%;
 	font-size: 26px;
 	font-family:"Geneva";
-	float: left;
 }
 
 #contact {
-	width:50%;
-	padding-top:80px;
+	padding-left:20px;
+	padding-top:160px;
+}
+
+.contactIcon {
+	margin-right:25px;
 	float: right;
-	text-align: right;
 }
 
 .contactIcon {
 	width:32px;
+	padding-bottom: 5px;
 }
