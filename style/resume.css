@@ -1,0 +1,60 @@
+html {
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+}
+
+#main {
+    padding:21px;
+    background-color:#EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+}
+
+.heading {
+    margin-bottom:4px;
+}
+
+.subheading {
+    margin-left: 10px;
+}
+
+#title {
+     float:left;
+     padding:8px;
+     background-color:#DDDDDD;
+}
+
+#highlights {
+    margin-left:330px;
+    padding:4px;
+}
+
+#experience {
+
+}
+
+.experienceSection {
+
+}
+
+#projects {
+
+}
+
+.projectsSection {
+
+}
+
+#education {
+
+}
+
+.educationSection {
+
+}
