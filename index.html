@@ -7,6 +7,21 @@
 		<title>Homepage of Artem Pasyechnyk</title>
 		<link rel="stylesheet" type="text/css" href="style/style.css"></style>
 		<script type="text/javascript" src="script/main.js"></script>
+                <script type="text/javascript">
+                  var _gaq = _gaq || [];
+                  _gaq.push(['_setAccount', 'UA-32556450-1']);
+                  _gaq.push(['_trackPageview']);
+        
+                  (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                   })();
+                  function recordOutboundLink(link, category, action) {
+                  _gat._getTrackerByName()._trackEvent(category, action);
+                  setTimeout('document.location = "' + link.href + '"', 100);
+                  }
+                </script>
 	</head>
 	
 	<body>
@@ -15,49 +30,49 @@
 			<div id="contact">
 				
 				<div class="contactInfo">
-					<a href="http://www.facebook.com/artem.pasyechnyk" title="Facebook">
+					<a
+					href="http://www.facebook.com/artem.pasyechnyk"
+					onClick="recordOutboundLink(this,'Outbound Links','Facebook'); return false;"
+                                        title="Facebook">
 						<img class="contactIcon" src="style/images/icons/facebook.png" />
 					</a>
 				</div>
 				<div class="contactInfo">
-					<a href="http://www.last.fm/user/DoubleDropD" title="Last.FM">
+					<a href="http://www.last.fm/user/DoubleDropD"
+                                           onClick="recordOutboundLink(this,'Outbound Links','LastFM'); return false;" 
+                                           title="Last.FM">
 						<img class="contactIcon" src="style/images/icons/lastfm.png" />
 					</a>
 				</div>
 				<div class="contactInfo">
-					<a href="https://github.com/artemip" title="GitHub">
+					<a href="https://github.com/artemip" 
+                                           onClick="recordOutboundLink(this,'Outbound Links','Github'); return false;" 
+                                           title="GitHub">
 						<img class="contactIcon" src="style/images/icons/github.png"/>
 					</a>
 				</div>
 				<div class="contactInfo">
-					<a href="http://www.linkedin.com/profile/view?id=52236949" title="LinkedIn">
+					<a href="http://www.linkedin.com/profile/view?id=52236949" 
+                                           onClick="recordOutboundLink(this,'Outbound Links','LinkedIn'); return false;" 
+                                           title="LinkedIn">
 						<img class="contactIcon" src="style/images/icons/linkedin.png" />
 					</a>
 				</div>
 				<div class="contactInfo">
-					<a href="mailto:artem.i.p@gmail.com" title="GMail">
+					<a href="mailto:artem.i.p@gmail.com" 
+                                           onClick="recordOutboundLink(this,'Outbound Links','GMail'); return false;" 
+                                           title="GMail">
 						<img class="contactIcon" src="style/images/icons/gmail.png" />
 					</a>
 				</div>
                                 <div class="contactInfo">
-					<a href="resume.html" title="Resume">
+					<a href="resume.html" 
+                                           onClick="recordOutboundLink(this,'Internal Links','Resume'); return false;" 
+                                           title="Resume">
 						<img class="contactIcon" src="style/images/icons/resume.png" />
 					</a>
 				</div>
 			</div>
 		</div>
 	</body>
-    <script type="text/javascript">
-        
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-32556450-1']);
-        _gaq.push(['_trackPageview']);
-        
-        (function() {
-         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-         })();
-        
-    </script>
 </html>
