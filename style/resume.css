@@ -67,14 +67,14 @@ body {
 	float:left;
 	font-size: 1.17em;
 	font-weight: bold;
-	width:24%;
+	width:20%;
 	padding-top:14px;
 }
 
 .subheadingDetails {
 	float:left;
 	word-wrap: break-word;
-	width:74%;
+	width:78%;
 }
 
 .section {
