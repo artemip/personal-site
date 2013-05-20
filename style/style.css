@@ -46,6 +46,13 @@ body {
 	font-family: 'Karla', sans-serif;
 }
 
+#title {
+	padding-top: 4px;  
+	padding-left: 14px;  
+	font-size: 18px;  
+	font-family: 'Karla', sans-serif;
+}
+
 #contact {
 	padding-left:12px;
 	padding-top:132px;
