@@ -88,7 +88,7 @@
 							<b>Databases:</b> MS SQL Server, PostgreSQL, MySQL, Cassandra
 						</li>
 						<li>
-							Experience working on EC2
+							Experience working on distributed systems
 							with ZooKeeper and Cassandra
 						</li>
 					</ul>
@@ -98,15 +98,35 @@
 				<span class="subheading">Work Experience</span>
 				<div class="subheadingDetails leftSeperator">
 					<div class="experienceSection">
+						<h4>Core Systems Software Developer (Intern) - Facebook
+						Inc. Menlo Park, California, Winter 2013</h4>
+						<ul>
+							<li>Heavily contributed to Facebook's internal branch of ZooKeeper</li>
+							<li>
+								Analyzed and corrected performance bottlenecks, 
+								allowing Facebook to uphold its' increasingly significant ZooKeeper workload
+							</li>
+							<li>Responsible for personally becoming familiarized with Facebook's suite of Core Systems tools</li>
+							<li>Was able to heavily compress data snapshots and reduce ZooKeeper server load times by 20%</li>
+							<li>Increased cluster read throughput 15x, with minimal impact on write throughput</li>
+							<li>Reduced session disconnect events (by an indeterminate amount)</li>
+							<li>Compressed watch information data being sent from client to server, further reducing network timeouts and session disconnects</li>
+							<li>
+								Designed and wrote an extensible performance test suite to stress-test ZooKeeper clusters with 30+ clients 
+								(in order to quantify performance improvements and identify regressions prior to releases)
+							</li>
+						</ul>
+					</div>
+					<div class="experienceSection">
 						<h4>Real-Time Systems Software Developer (Intern) - PagerDuty
 						Inc. San Francisco, California, Summer 2012</h4>
 						<ul>
 							<li>PagerDuty is a small startup that provides an alarm aggregation and dispatching service for system administrators and support teams</li>
 							<li>Contributed to the continued development of PagerDuty's redundant systems infrastructure</li>
-							<li>Worked in small team on developing a distributed version of the notification pipeline that would retain functionality in major datacenter outage scenarios</li>
+							<li>Worked in small team on developing a distributed version of the notification pipeline</li>
 							<li>
-								Took on many research tasks to find solutions to existing infrastructure issues related to complications that arose in the distributed nature of the application, 
-								as well as difficulties involving SMS, Phone, and Email providers' dependability and response time
+								Took on research tasks to find solutions to issues introduced by application distribution,
+								as well as SMS, phone, and email providers' dependability and response time
 							</li>
 							<li>
 								Responsible for designing and integrating essential parts of the application after applicable research had been done
@@ -120,7 +140,7 @@
 							  Spent my last week working on a personal project for the company, which allowed me to dive head-first into
 							  RoR code as well as Scala on Android. 
 							  The project (a mobile app for PagerDuty, allowing for Push Notifications in addition to the existing 
-							  SMS/Phone/Email notification methods) was a success, and is ready for beta testing.
+							  SMS/Phone/Email notification methods) was a success, and has since been released in an iOS & Android app
 							</li>
 							<li>Development environment: Emacs (with Ensime), SBT 0.11.2, OSX 10.7.4</li>
 						</ul>
@@ -131,7 +151,10 @@
 						<ul>
 							<li>
 								Heavily involved in highly agile, international team on developing a suite of modules
-								for use in an internal application used by traders to calculate, plot, and
+								for use in an internal application
+							</li>
+							<li>
+								Application was used by traders to calculate, plot, and
 								extrapolate option volatilities in order to predict future trends based on
 								existing market data
 							</li>
